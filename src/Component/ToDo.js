@@ -1,9 +1,9 @@
 import React from 'react';
 import './ToDo.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlusCircle, faEdit, faTrash } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlusCircle, faEdit, faTrash } from '@fortawesome/free-solid-svg-icons';
 
-export default function ToDo() {
+function ToDo() {
     return (
         <div className="todo-container">
             <h2>To-Do App</h2>
@@ -29,3 +29,5 @@ export default function ToDo() {
         </div>
     )
 }
+
+export default ToDo;
